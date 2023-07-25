@@ -1,0 +1,32 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /gotbak
+spring:
+  datasource:
+    name: testdb
+    password: password
+    url: jdbc:postgresql://localhost:5432/gotbakdb
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.649658150b31642d
+            client-secret: d2c6d2c4893a541ab30247220e76d6e3796cbd0e
+          google:
+            client-id: 465502469367-vn2mv96rn1phm7jvd6o5heqmhggandlp.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+            - email
+            - profile
+logging:
+  logback:
+    rollingpolicy:
+      clean-history-on-start: true
+      max-history: 10

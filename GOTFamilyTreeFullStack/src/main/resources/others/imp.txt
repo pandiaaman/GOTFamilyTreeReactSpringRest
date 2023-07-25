@@ -1,0 +1,9 @@
+Google : url : https://console.cloud.google.com/apis/credentials?project=gotfamilytree
+
+	client id : 465502469367-vn2mv96rn1phm7jvd6o5heqmhggandlp.apps.googleusercontent.com
+	client secret : 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
+	
+GITHUB :url : https://github.com/settings/apps/gotfamilytreeproject
+
+	client id : Iv1.649658150b31642d
+	client secret : d2c6d2c4893a541ab30247220e76d6e3796cbd0e	

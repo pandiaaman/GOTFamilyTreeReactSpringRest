@@ -1,0 +1,19 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /gotbak
+spring:
+  datasource:
+    name: testdb
+    password: password
+    url: jdbc:postgresql://localhost:5432/gotbakdb
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  logback:
+    rollingpolicy:
+      clean-history-on-start: true
+      max-history: 10
